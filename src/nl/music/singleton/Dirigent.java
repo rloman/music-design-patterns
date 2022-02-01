@@ -1,8 +1,5 @@
 package nl.music.singleton;
 
-import java.beans.FeatureDescriptor;
-import java.util.concurrent.locks.Lock;
-
 public class Dirigent {
 
     private static Dirigent instance;

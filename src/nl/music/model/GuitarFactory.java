@@ -1,6 +1,5 @@
 package nl.music.model;
 
-import nl.music.behaviour.PlayKeysBehaviour;
 import nl.music.behaviour.PlayWithStrings;
 
 public class GuitarFactory extends InstrumentFactory {

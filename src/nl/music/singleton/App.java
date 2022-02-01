@@ -1,7 +1,5 @@
 package nl.music.singleton;
 
-import nl.music.model.Instrument;
-
 public class App {
 
 

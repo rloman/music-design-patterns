@@ -1,6 +1,5 @@
 package nl.music.behaviour;
 
-import nl.music.model.Guitar;
 import nl.music.model.GuitarFactory;
 import nl.music.model.Instrument;
 import nl.music.model.PianoFactory;
