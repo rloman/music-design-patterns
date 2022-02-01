@@ -24,9 +24,18 @@ public abstract class Instrument {
         this.playBehaviour = playBehaviour;
     }
 
+    // showing the Template Method in action
+    public void arrange() {
+        System.out.println("Uitpakken");
+        perform();
+        System.out.println("Inpakken en naar huis");
+    }
+
     public void play() {
         if (playBehaviour != null) {
             playBehaviour.play();
         }
     }
+
+    public abstract void perform();
 }

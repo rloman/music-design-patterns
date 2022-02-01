@@ -16,4 +16,9 @@ public class Guitar extends Instrument {
     public void setStrings(int strings) {
         this.strings = strings;
     }
+
+    @Override
+    public void perform() {
+        System.out.println("Performing guitar ... ");
+    }
 }
