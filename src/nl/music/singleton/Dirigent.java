@@ -4,6 +4,7 @@ public class Dirigent {
 
     private static Dirigent instance;
 
+    // let op dat je dit dus synchronized maakt. Of via lock met C#
     public static synchronized Dirigent getInstance() {
         if (instance == null) {
             instance = new Dirigent("Jaap van Zweden");
