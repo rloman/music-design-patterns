@@ -21,15 +21,10 @@ public class RecList {
         return 1 + tail.size();
     }
 
-    public void pp() {
-        System.out.println("-- Start List --");
-        ppHelper();
-    }
-
-    private void ppHelper() {
+    public void prettyPrint() {
         if (head != null) {
             System.out.print(head+", ");
-            tail.ppHelper();
+            tail.prettyPrint();
         }
     }
 }

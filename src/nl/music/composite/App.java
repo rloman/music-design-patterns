@@ -13,6 +13,6 @@ public class App {
         list.add(new Piano("Steinway"));
 
         System.out.println(3 == list.size());
-        list.pp();
+        list.prettyPrint();
     }
 }
