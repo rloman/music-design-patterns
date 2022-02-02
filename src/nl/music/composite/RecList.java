@@ -32,6 +32,4 @@ public class RecList {
             tail.ppHelper();
         }
     }
-
-    // Assignment: pretty print the list
 }
