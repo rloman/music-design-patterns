@@ -2,7 +2,7 @@ package nl.music.flyweight;
 
 import nl.music.flyweight.ui.UI;
 
-public class GameApp {
+public class App {
 
     public static void main(String[] args) {
         UI ui = new UI();
