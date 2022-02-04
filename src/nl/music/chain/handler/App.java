@@ -1,7 +1,6 @@
 package nl.music.chain.handler;
 
 import nl.music.chain.model.Guitar;
-import nl.music.chain.model.Pauk;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package nl.music.flyweight;
+package nl.music.flyweight.model;
 
 public class ConiferTree implements Tree {
 
